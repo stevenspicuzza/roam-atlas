@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-blue: #2563eb;
+  --color-brand-green: #16a34a;
+  --color-surface: #f8fafc;
+  --color-card: #ffffff;
+}
+
+body {
+  background: var(--color-surface);
+  color: #0f172a;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+/* Smooth scroll for sidebar anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for sidebar on desktop */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
